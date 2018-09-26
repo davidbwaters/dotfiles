@@ -1,0 +1,43 @@
+
+# Common Aliases
+
+# Allow "sudo" to be used in front of aliases
+alias sudo="sudo "
+
+# Simple Date (MM-DD-YY)
+alias simple-date="echo $(date "+%m-%d-%y")"
+
+# Homebrew
+alias  cask.s="brew search"
+alias  cask.i="brew cask install"
+alias  cask.r="brew cask reinstall"
+alias  cask.u="brew cask uninstall"
+alias cask.rm="brew cask remove"
+
+# Use Atom"s CLI commands with Atom Beta
+# alias atom="atom-beta"
+# alias  apm="apm-beta"
+
+# NGINX
+alias nginx.start="sudo brew services start nginx"
+alias nginx.restart="sudo brew services restart nginx"
+alias nginx.reload="sudo brew services reload nginx"
+alias nginx.stop="sudo brew services stop nginx"
+
+
+# PHP 7.2
+alias php.start="sudo brew services start php72"
+alias php.restart="sudo brew services restart php72"
+alias php.reload="sudo brew services reload php72"
+alias php.stop="sudo brew services stop php72"
+
+
+# MariaDB
+alias mdb.start="sudo brew services start mariadb"
+alias mdb.restart="sudo brew services restart mariadb"
+alias mdb.reload="sudo brew services reload mariadb"
+alias mdb.stop="sudo brew services stop mariadb"
+
+# Server
+alias server.restart="sudo sh ~/Scripts/server-restart.sh"
+
